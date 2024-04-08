@@ -16,10 +16,12 @@ import { ImageUploadService } from '@services/image-upload.service';
 })
 export class GlobalService {
 
-  private apiUrl = 'http://localhost:8090/api/collections/images/records';
+/*   private apiUrl = 'http://localhost:8090/api/collections/images/records';
+ */  private apiUrl = '';
 
   
-  private apirestUrl = 'http://localhost:7777/api/';
+/*   private apirestUrl = 'http://localhost:7777/api/';
+ */  private apirestUrl = '';
   employes: any[] = [];
   configs: any[] = [];
 

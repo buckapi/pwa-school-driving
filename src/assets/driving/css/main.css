@@ -87,7 +87,7 @@
 :root {
   --color-white: #FFFFFF;
   --color-black: #000000;
-  --color-dark-1: #140342;
+  --color-dark-1: #D04848;
   --color-dark-2: #1A064F;
   --color-dark-3: #6A7A99;
   --color-dark-4: #242239;
@@ -107,18 +107,18 @@
   --color-light-10: #F4F3F6;
   --color-light-11: #EBEAFE;
   --color-light-12: #CCE0F8;
-  --color-purple-1: #6440FB;
+  --color-purple-1: #333A73;
   --color-purple-2: #E3EDFD;
   --color-purple-3: #F4F1FE;
-  --color-purple-4: #7545F0;
+  --color-purple-4: #333A73;
   --color-purple-5: #EAE3FD;
-  --color-green-1: #00FF84;
-  --color-green-2: #DEF5F0;
-  --color-green-3: #EEF8F5;
-  --color-green-4: #04D697;
-  --color-green-5: #34A853;
-  --color-green-6: #DFF1DD;
-  --color-green-7: #D9FFED;
+  --color-green-1: #FBA834;
+  --color-green-2: #FBA834;
+  --color-green-3: #FBA834;
+  --color-green-4: #FBA834;
+  --color-green-5: #FBA834;
+  --color-green-6: #FBA834;
+  --color-green-7: #FBA834;
   --color-orange-1: #E8543E;
   --color-orange-2: #F7E9E7;
   --color-orange-3: #FDF2EB;
@@ -2635,7 +2635,7 @@ button:focus {
 }
 
 .button.-gradient-1 {
-  background: linear-gradient(90deg, #6440FB 0%, #E8543E 108.34%);
+  background: linear-gradient(90deg, #FBA834 0%, #E8543E 108.34%);
 }
 
 .button.-gradient-1:hover {
@@ -3483,7 +3483,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-content__title span {
-  color: #6440FB;
+  color: #FBA834;
 }
 
 .about-content__text {
@@ -3530,7 +3530,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
   height: 25px;
   border-radius: 100%;
-  background-color: #6440FB;
+  background-color: #FBA834;
 }
 
 .about-content .about-content-list__icon .icon {
@@ -3569,7 +3569,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .app-content__title span {
-  color: #6440FB;
+  color: #FBA834;
 }
 
 .app-content__text {
@@ -3602,7 +3602,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #6440FB;
+  color: #FBA834;
 }
 
 .blogCard.-type-1 .blogCard__title {
@@ -3643,7 +3643,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 15px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #6440FB;
+  color: #FBA834;
 }
 
 .blogCard.-type-2 .blogCard__title {
@@ -4051,7 +4051,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 16px;
   color: white;
   padding: 12px 24px;
-  background-color: #6440FB;
+  background-color: #FBA834;
   border-radius: 100px;
 }
 
@@ -6212,7 +6212,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   line-height: 36px;
   font-weight: 400;
-  color: #6440FB;
+  color: #FBA834;
 }
 
 .testimonials.-type-1 .testimonials__text {
@@ -6220,7 +6220,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   line-height: 30px;
   font-weight: 400;
-  color: var(--color-dark-1);
+  color: var(--color-blue-5);
 }
 
 .testimonials.-type-1 .testimonials-footer {
@@ -6273,7 +6273,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 35px;
   font-weight: 700;
   line-height: 40px;
-  color: #00FF84;
+  color: #FBA834;
 }
 
 .counter__title {
@@ -6868,7 +6868,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #6440FB;
+  background: #FBA834;
   opacity: 0;
   transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -9349,7 +9349,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-dark-1 {
-  color: var(--color-dark-1) !important;
+  color: var(--color-blue-5) !important;
 }
 
 .text-dark-2 {

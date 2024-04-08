@@ -15,6 +15,8 @@ import { UserPaymentsComponent } from './components/user-payments/user-payments.
 import { UserRequestsComponent } from './components/user-requests/user-requests.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/ui/header/header.component';
+import { FooterComponent } from './components/ui/footer/footer.component';
 
 
 @Component({
@@ -32,7 +34,9 @@ import { HomeComponent } from './components/home/home.component';
     LoginComponent,
     UserRequestsComponent,
     SettingsComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent
     
   ],
   templateUrl: './app.component.html',
