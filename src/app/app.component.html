@@ -2,16 +2,20 @@
  -->
 <div>
 
+
 <!--    
 
  <app-vertical-nav [hidden]="virtualRouter.routerActive=='settings'"></app-vertical-nav>
   <app-settings [hidden]="virtualRouter.routerActive!=='settings'"></app-settings>
-  <app-user-home [hidden]="virtualRouter.routerActive!=='user-home'"></app-user-home>
+  
   <app-admin-home [hidden]="virtualRouter.routerActive!=='admin-home'"></app-admin-home> -->
+  <!--   <app-header [hidden]="virtualRouter.routerActive!=='header'"></app-header>
+ -->
+  <app-user-home [hidden]="virtualRouter.routerActive!=='user-home'"></app-user-home>
   <app-top-navbar [hidden]="virtualRouter.routerActive=='top-navbar'"></app-top-navbar> 
   <app-home [hidden]="virtualRouter.routerActive!=='home'"></app-home>
-  <app-header [hidden]="virtualRouter.routerActive!=='header'"></app-header>
   <app-footer [hidden]="virtualRouter.routerActive=='footer'"></app-footer> 
+  <app-home-user [hidden]="virtualRouter.routerActive=='home-user'"></app-home-user> 
 
 
   <!-- <app-user-payments [hidden]="virtualRouter.routerActive!=='user-payments'"></app-user-payments>

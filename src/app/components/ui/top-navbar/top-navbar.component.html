@@ -1,4 +1,4 @@
-<main class="main-content  ">
+
     <header data-anim="fade" data-add-bg="bg-dark-1" class="header -type-1 js-header">
     
     
@@ -13,89 +13,6 @@
                     <img src="assets/driving/img/general/logo.png" alt="logo">
                   </a>
                 </div>
-    
-    
-                <!-- <div class="header__explore text-green-1 ml-60 xl:ml-30 xl:d-none">
-                  <a href="index.html#" class="d-flex items-center" data-el-toggle=".js-explore-toggle">
-                    <i class="icon icon-explore mr-15"></i>
-                    Licencias
-                  </a>
-    
-                  <div class="explore-content py-25 rounded-8 bg-white toggle-element js-explore-toggle">
-    
-                    <div class="explore__item">
-                      <a href="index.html#" class="d-flex items-center justify-between text-dark-1">
-                        No profesionales<div class="icon-chevron-right text-11"></div>
-                      </a>
-                     
-                    </div>
-    
-                    <div class="explore__item">
-                      <a href="index.html#" class="d-flex items-center justify-between text-dark-1">
-                        Business<div class="icon-chevron-right text-11"></div>
-                      </a>
-                     
-                    </div>
-    
-    
-                    <div class="explore__item">
-                      <a href="index.html#" class="text-dark-1">Computer Programming</a>
-                    </div>
-    
-                    <div class="explore__item">
-                      <a href="index.html#" class="text-dark-1">Data Analysis</a>
-                    </div>
-    
-    
-                   
-    
-                    <div class="explore__item">
-                      <a href="courses-single-6.html" class="text-dark-1">Education</a>
-                    </div>
-    
-    
-                   
-    
-                  
-    
-                    
-    
-    
-                    <div class="explore__item">
-                      <a href="index.html#" class="text-dark-1">Music Arts</a>
-                    </div>
-    
-                    <div class="explore__item">
-                      <a href="index.html#" class="text-dark-1">Social Science</a>
-                    </div>
-    
-    
-                    <div class="explore__item">
-                      <a href="index.html#" class="d-flex items-center justify-between text-dark-1">
-                        Photography & Video<div class="icon-chevron-right text-11"></div>
-                      </a>
-                      <div class="explore__subnav rounded-8">
-                        <a class="text-dark-1" href="courses-single-1.html">Web Design</a>
-                        <a class="text-dark-1" href="courses-single-2.html">Graphic Design</a>
-                        <a class="text-dark-1" href="courses-single-3.html">Design Tools</a>
-                        <a class="text-dark-1" href="courses-single-4.html">User Experience Design</a>
-                        <a class="text-dark-1" href="courses-single-5.html">Game Design</a>
-                        <a class="text-dark-1" href="courses-single-6.html">3D & Animation</a>
-                        <a class="text-dark-1" href="courses-single-1.html">Fashion Design</a>
-                        <a class="text-dark-1" href="courses-single-2.html">Interior Design</a>
-                      </div>
-                    </div>
-    
-                    <div class="explore__item">
-                      <a href="courses-single-1.html" class="text-dark-1">IT & Software</a>
-                    </div>
-    
-                    <div class="explore__item">
-                      <a href="courses-single-2.html" class="text-purple-1 underline">View All Courses</a>
-                    </div>
-                  </div>
-                </div> -->
-    
               </div>
             </div>
     
@@ -105,7 +22,7 @@
                 <div class="mobile-bg js-mobile-bg"></div>
     
                 <div class="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
-                  <a  class="text-dark-1">Ingresar</a>
+                  <a  class="text-dark-1" (click)="virtualRouter.setRoute('home-user')" style="cursor: pointer;">Ingresar</a>
                   <a  class="text-dark-1 ml-30">Registrarme</a>
                 </div>               
 
@@ -131,7 +48,7 @@
                               </li>
     
                               <li>
-                                <a >Clase B</a>
+                                <a (click)="virtualRouter.setRoute('home-user')">Clase B</a>
                               </li>
     
                               <li>
@@ -415,9 +332,9 @@
     
             
                 <div class="header-right__buttons d-flex items-center ml-30 xl:ml-20 md:d-none">
-                  <a class="button px-30 h-50 -outline-dark-1 text-white " style="border: 2px solid #fff; color: #fff;">Ingresar</a>
+                  <a class="button px-30 h-50 -outline-dark-1 text-white " style="border: 2px solid #fff; color: #fff;" (click)="virtualRouter.setRoute('user-home')">Ingresar</a>
                   <a  class="button px-30 h-50 ml-10 text-r" style="background-color: #fff;
-                  border: #fba834; color: #D04848;">Registrarme</a>
+                  border: #fba834; color: #D04848;" (click)="virtualRouter.setRoute('user-home')">Registrarme</a>
                 </div>
               </div>
             </div>
@@ -425,7 +342,7 @@
           </div>
         </div>
       </header>
-    </main>
+
 
 
 <!-- 

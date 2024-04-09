@@ -17,6 +17,7 @@ import { SettingsComponent } from './components/settings/settings.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/ui/header/header.component';
 import { FooterComponent } from './components/ui/footer/footer.component';
+import { HomeUserComponent } from './components/home-user/home-user.component';
 
 
 @Component({
@@ -36,8 +37,8 @@ import { FooterComponent } from './components/ui/footer/footer.component';
     SettingsComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
-    
+    FooterComponent,
+    HomeUserComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
